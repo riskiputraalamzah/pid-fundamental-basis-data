@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="800" height="320" role="img" aria-label="Perbandingan Catatan Manual dan Basis Data Digital">
+  <!-- Background Canvas -->
+  <rect x="0" y="0" width="800" height="320" fill="#FBF9F4"/>
+
+  <!-- Left Card Shadow + Box (Catatan Manual) -->
+  <rect x="22" y="22" width="342" height="280" rx="12" fill="#111827"/>
+  <rect x="16" y="16" width="342" height="280" rx="12" fill="#FFE4E6" stroke="#111827" stroke-width="3"/>
+
+  <!-- Left Header Tag -->
+  <rect x="38" y="36" width="166" height="32" rx="6" fill="#111827"/>
+  <rect x="34" y="32" width="166" height="32" rx="6" fill="#E11D48" stroke="#111827" stroke-width="2.5"/>
+  <text x="117" y="53" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">CATATAN MANUAL</text>
+
+  <!-- Messy Paper 1 -->
+  <g transform="rotate(-5 135 142)">
+    <rect x="58" y="90" width="154" height="104" rx="6" fill="#111827"/>
+    <rect x="54" y="86" width="154" height="104" rx="6" fill="#FFFFFF" stroke="#111827" stroke-width="2.5"/>
+    <line x1="72" y1="112" x2="174" y2="112" stroke="#9CA3AF" stroke-width="4" stroke-linecap="round"/>
+    <line x1="72" y1="132" x2="152" y2="132" stroke="#D1D5DB" stroke-width="4" stroke-linecap="round"/>
+    <line x1="72" y1="152" x2="188" y2="152" stroke="#E11D48" stroke-width="4" stroke-linecap="round"/>
+    <line x1="70" y1="146" x2="145" y2="158" stroke="#111827" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Messy Paper 2 -->
+  <g transform="rotate(4 235 156)">
+    <rect x="152" y="106" width="170" height="104" rx="6" fill="#111827"/>
+    <rect x="148" y="102" width="170" height="104" rx="6" fill="#FEF3C7" stroke="#111827" stroke-width="2.5"/>
+    <line x1="168" y1="128" x2="282" y2="128" stroke="#9CA3AF" stroke-width="4" stroke-linecap="round"/>
+    <line x1="168" y1="148" x2="254" y2="148" stroke="#D1D5DB" stroke-width="4" stroke-linecap="round"/>
+    <rect x="166" y="164" width="134" height="26" rx="4" fill="#E11D48" stroke="#111827" stroke-width="2"/>
+    <text x="233" y="182" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="900" fill="#FFFFFF" text-anchor="middle">Stok: 12? 8? Coret!</text>
+  </g>
+
+  <text x="187" y="248" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="900" fill="#111827" text-anchor="middle">Rentan Hilang &amp; Data Ganda</text>
+  <text x="187" y="272" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#881337" text-anchor="middle">Sulit dicari saat transaksi ramai</text>
+
+  <!-- Center Arrow Badge -->
+  <circle cx="403" cy="161" r="24" fill="#111827"/>
+  <circle cx="399" cy="157" r="24" fill="#FACC15" stroke="#111827" stroke-width="3"/>
+  <path d="M388 157 H410 M402 149 L410 157 L402 165" stroke="#111827" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Right Card Shadow + Box (Basis Data Digital) -->
+  <rect x="446" y="22" width="342" height="280" rx="12" fill="#111827"/>
+  <rect x="440" y="16" width="342" height="280" rx="12" fill="#DBEAFE" stroke="#111827" stroke-width="3"/>
+
+  <!-- Right Header Tag -->
+  <rect x="462" y="36" width="184" height="32" rx="6" fill="#111827"/>
+  <rect x="458" y="32" width="184" height="32" rx="6" fill="#2563EB" stroke="#111827" stroke-width="2.5"/>
+  <text x="550" y="53" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">BASIS DATA DIGITAL</text>
+
+  <!-- Structured Table -->
+  <rect x="466" y="86" width="298" height="128" rx="8" fill="#111827"/>
+  <rect x="462" y="82" width="298" height="128" rx="8" fill="#FFFFFF" stroke="#111827" stroke-width="2.5"/>
+  <path d="M462 90 Q462 82 470 82 H752 Q760 82 760 90 V114 H462 Z" fill="#111827"/>
+  <text x="478" y="103" font-family="Consolas, Courier New, monospace" font-size="11.5" font-weight="bold" fill="#FACC15">PK: id</text>
+  <text x="552" y="103" font-family="Consolas, Courier New, monospace" font-size="11.5" font-weight="bold" fill="#FFFFFF">nama_barang</text>
+  <text x="698" y="103" font-family="Consolas, Courier New, monospace" font-size="11.5" font-weight="bold" fill="#34D399">stok</text>
+
+  <line x1="462" y1="146" x2="760" y2="146" stroke="#111827" stroke-width="1.5"/>
+  <line x1="462" y1="178" x2="760" y2="178" stroke="#111827" stroke-width="1.5"/>
+
+  <text x="478" y="135" font-family="Consolas, Courier New, monospace" font-size="11.5" font-weight="bold" fill="#2563EB">BRG-01</text>
+  <text x="552" y="135" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#111827">Roti Tawar</text>
+  <rect x="694" y="120" width="42" height="20" rx="4" fill="#34D399" stroke="#111827" stroke-width="1.8"/>
+  <text x="715" y="134" font-family="Consolas, Courier New, monospace" font-size="11.5" font-weight="bold" fill="#111827" text-anchor="middle">24</text>
+
+  <text x="478" y="167" font-family="Consolas, Courier New, monospace" font-size="11.5" font-weight="bold" fill="#2563EB">BRG-02</text>
+  <text x="552" y="167" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#111827">Susu UHT</text>
+  <rect x="694" y="152" width="42" height="20" rx="4" fill="#34D399" stroke="#111827" stroke-width="1.8"/>
+  <text x="715" y="166" font-family="Consolas, Courier New, monospace" font-size="11.5" font-weight="bold" fill="#111827" text-anchor="middle">15</text>
+
+  <text x="478" y="199" font-family="Consolas, Courier New, monospace" font-size="11.5" font-weight="bold" fill="#2563EB">BRG-03</text>
+  <text x="552" y="199" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#111827">Pulpen Gel</text>
+  <rect x="694" y="184" width="42" height="20" rx="4" fill="#FACC15" stroke="#111827" stroke-width="1.8"/>
+  <text x="715" y="198" font-family="Consolas, Courier New, monospace" font-size="11.5" font-weight="bold" fill="#111827" text-anchor="middle">5</text>
+
+  <text x="611" y="248" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="900" fill="#111827" text-anchor="middle">Terstruktur, Valid &amp; Real-Time</text>
+  <text x="611" y="272" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1E40AF" text-anchor="middle">Cepat dicari, aman dari duplikasi data</text>
+</svg>
