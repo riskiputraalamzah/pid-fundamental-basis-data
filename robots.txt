@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pid-fundamental-basis-data-ant1.vercel.app/sitemap.xml
