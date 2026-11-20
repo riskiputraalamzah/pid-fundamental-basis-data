@@ -92,10 +92,10 @@ Centang seluruh yang sesuai:
 ### 2. Interactive App \* *(HTML/HTM atau ZIP dengan index.html — maks. 20 MB)*
 - **WAJIB pilih file `.zip` (JANGAN hanya upload `index.html` sendirian!)**
 - Pilih file yang sudah disiapkan: **`paket-kodingka-fundamental-basis-data.zip`**
-- Ukuran: **±1,25 MB** (sangat ringan, jauh di bawah batas 20 MB).
+- Ukuran: **±1,6 MB** (sangat ringan, jauh di bawah batas 20 MB).
 
 #### Kenapa wajib `.zip` dan bukan `.html` saja?
-Karena `index.html` membutuhkan 7 aset lokal di dalam folder `assets/` (logo Kemendikdasmen, logo SMK Antartika 1, 3 diagram SVG, dan favicon). Jika hanya mengunggah `index.html`, gambar dan logo tidak akan muncul.
+Karena `index.html` membutuhkan 10 aset lokal di dalam folder `assets/` (logo Kemendikdasmen, logo SMK Antartika 1, 3 stiker *die-cut* Duo Host Raka & Nadia, 3 diagram SVG, OG preview, dan favicon). Jika hanya mengunggah `index.html`, gambar, karakter Duo Host, dan logo tidak akan muncul.
 
 #### Struktur isi `paket-kodingka-fundamental-basis-data.zip` (Sudah Bersih & Sesuai Syarat Kodingka):
 ```text
@@ -106,6 +106,9 @@ paket-kodingka-fundamental-basis-data.zip
     ├── gambar-1-manual-vs-db.svg
     ├── gambar-2-anatomi-tabel.svg
     ├── gambar-3-relasi-erd.svg
+    ├── host-duo-sticker.png    <-- Stiker Duo Host Raka & Nadia (Hal. 1 & 9)
+    ├── host-nadia-sticker.png  <-- Stiker Nadia (Detektif & Petunjuk)
+    ├── host-raka-sticker.png   <-- Stiker Raka (Arena 3 Kasir & Uji Rak)
     ├── LOGO-ANTARTIKA.png
     ├── logo-kemindikdasmen.png
     └── og-preview.png
